@@ -1,0 +1,41 @@
+
+   .cabeçalho_menu-hamburbuer{ 
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-display: inline block;
+
+      .cabeçalho {background-color: var(--branco);
+        display:flex;
+        justify-content:space-between;
+        align-itens:center;
+        position:relative;}
+        .container{
+            display: flex;
+        align-items: center;}
+         .container__imagem{
+        padding: 1em; }
+        .lista-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+         width: 60vw;}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+
+.lista-menu_titulo
+.lista-menu_item {
+    padding: 1em;
+    background-color: (--branco);
+}
+ .lista-menu_titulo {
+    color:var(--laranja) ;
+ }
+ .lista-menu_link {
+    background: var(--azul)
+    --webkit-background-clip:text; 
+    text-transform:uppercase; 
+ }
